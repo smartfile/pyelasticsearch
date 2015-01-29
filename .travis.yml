@@ -12,3 +12,6 @@ install:
   - pip install -e .
 
 script: python setup.py test
+
+notifications:
+  slack: smartfile:tbDIPzVJIPBpSz29kQw6b8RQ
